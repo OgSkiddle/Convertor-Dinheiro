@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TerritorialBreak5 - Convertor de Guita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <section class="converter">
+        <p class="title">Convertor de Guita<p/>
+        <label class="type" for="currency">De:</label>
+        <section class="first-currency">
+          <div>
+            <select class="currency-type-from" name="currency">
+              <option value="usd">USD</option>
+              <option value="brl">BRL</option>
+              <option value="eur">EUR</option>
+            </select>
+          </div>
+          <div>
+            <input id="currency-value-from" type="number" placeholder="00.00" required autofocus>
+          </div>
+        </section>
+        <label class="type" for="current-value">Para:</label>
+        <section class="second-currency">
+          <div>
+            <select class="currency-type-to" name="currency">
+              <option value="brl">BRL</option>
+              <option value="eur">EUR</option>
+              <option value="usd">USD</option>
+            </select>
+          </div>
+          <div>
+            <p id="currency-value-to"><p>
+          </div>
+        </section>
+        <button>Converter</button>
+      </section>
+    </main>
+	
+	<script src="script.js"></script>
+	
+  </body>
+</html>
