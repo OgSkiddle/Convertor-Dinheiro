@@ -7,3 +7,4 @@ Apenas está para EUR, USD e BRL, poderei meter mais moedas, futuramente.
 
 
 Made By: TerritorialBreak5
+My Discord: skiddle pumpkin#3693
